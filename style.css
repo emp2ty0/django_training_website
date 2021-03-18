@@ -7,7 +7,7 @@
 }
 body{
     position: relative;
-    background-color:black;
+    background-color:#061b33;
 }
 .wrapper{
     position: relative;
@@ -47,6 +47,17 @@ body{
 .slider-items input{
     position: absolute;
     visibility: hidden;
+}
+.slider-nav{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
 }
 .slider-nav .slider-nav-item{
     width: 60px;
